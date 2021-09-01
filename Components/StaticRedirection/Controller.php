@@ -1,10 +1,11 @@
 <?php
 
-namespace CoreLib\BasicComponents\Redirection\StaticRedirection;
+namespace CoreLib\BasicComponents\Components\StaticRedirection;
 
 use Core\ComponentManager\ComponentController;
+use Core\ComponentManager\RedirectionController;
 
-class Script
+class Controller extends RedirectionController
 {
     public function __construct($params)
     {
