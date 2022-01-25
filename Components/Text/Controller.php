@@ -15,14 +15,14 @@ class Controller extends ComponentController
     {
         return (object)[
             'text' => [
-                'type' => 'string'
+                'type' => 'content'
             ]
         ];
     }
 
     public function loadView()
     {
-        echo '<div>'.htmlspecialchars($this->params->text).'</div>';
+        echo '<div>' . $this->params->text->getHtml() . '</div>';
     }
 
 }

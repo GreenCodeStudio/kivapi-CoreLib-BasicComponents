@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<package>
+    <vendor>CoreLib</vendor>
+    <name>BasicComponents</name>
+    <description>
+        BasicComponents provide some components, than can be use in any projects.
+    </description>
+    <git>https://github.com/GreenCodeStudio/kivapi-CoreLib-BasicComponents</git>
+    <version>1.0.0</version>
+</package>
