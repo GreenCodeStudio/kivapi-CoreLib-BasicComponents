@@ -6,6 +6,11 @@ use Core\ComponentManager\ComponentController;
 
 class Controller extends ComponentController
 {
+    /**
+     * @var mixed
+     */
+    public $params;
+
     public function __construct($params)
     {
         $this->params = $params;
